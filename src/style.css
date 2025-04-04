@@ -1,15 +1,29 @@
-h1 i {
-    margin-right: 10px; 
-    color: #007bff; 
-    font-size: 24px; 
-    font-: bold;
+body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    margin: 0;
+    padding-top: 10vh;
+    background-color: #f4f4f4;
+
 }
 
+main {
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+}
 
 .input-container {
     position: relative;
-     width: 93%;
-     margin-bottom: 10px;
+    width: 93%;
+    margin-bottom: 10px;
 }
 
 .input-container input {
@@ -34,58 +48,51 @@ h1 i {
 
 .input-container input:focus+.placeholder,
 .input-container input:not(:placeholder-shown)+.placeholder {
-    top: 5px;
+    top: 1px;
     left: 10px;
-    font-size: 12px;
+    font-size: 10px;
     color: #007bff;
     transform: none;
 }
 
 
-body {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    height: 100vh;
-    margin: 0;
-    padding-top: 10vh;
-    background-color: #f4f4f4;
-}
-
-main {
-    width: 300px; 
-    padding: 20px; 
-    border-radius: 10px; 
-    background-color: white; 
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); 
-    text-align: center; 
-    margin: auto; 
-    margin-top: 50px; 
-}
 
 .button {
-  border: none;
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 20px;
-  margin: 5px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-  width: 100%;
-  background-color: #007bff;
+    border: none;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 5px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 100%;
+    background-color: #007bff;
 }
 
 .button:hover {
     color: white;
-  }
+}
 
-  .resultado{
+.resultado {
+    display: grid;
+    justify-content: start;
+}
+
+h1 i {
+    margin-right: 10px;
+    color: #007bff;
+    font-size: 24px;
+}
+
+.h2 {
+    margin: 5px;
     display: grid;
     justify-content: left;
-  }
+}
 
-  .h2{
-    margin: 5px;
-  }
+.IMCresult {
+    display: grid;
+    justify-content: left;
+}
