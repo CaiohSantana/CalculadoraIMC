@@ -1,5 +1,5 @@
 body {
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: flex-start;
     height: 100vh;
@@ -78,6 +78,14 @@ main {
 .resultado {
     display: grid;
     justify-content: start;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
 }
 
 h1 i {
@@ -96,3 +104,4 @@ h1 i {
     display: grid;
     justify-content: left;
 }
+
